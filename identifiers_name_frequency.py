@@ -8,7 +8,7 @@ The structure of json file is: {length:count}
 
 def countUniqueIdentifiersFrequency():
 	identifiers_frequency_list = []
-	with open("rawIdentifiersNames.json", 'r') as json_read_file:
+	with open("dataset/rawIdentifiersNames.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		rawIdentifiers_name_frequency = {}
 		for repo in data:
