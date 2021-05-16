@@ -9,7 +9,7 @@ The structure of the file is: {repo_name:similarity_score}
 def computeRepoSimilarity():
 	repo_identifiers_similarity = []
 	nlp = spacy.load("en_core_web_lg")
-	with open("atomicIdentifiersName.json", 'r') as json_read_file:
+	with open("dataset/atomicIdentifiersName.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		for repo in data:
 			repo_info = {"repo_name":" ", "similarity_score":0}
@@ -25,7 +25,7 @@ def computeRepoSimilarity():
 
 			repo_identifiers_similarity.append(repo_info)
 
-		with open("repoSimilarityDetails.json", 'w') as json_write_file:
+		with open("dataset/repoSimilarityDetails.json", 'w') as json_write_file:
 			json.dump(repo_identifiers_similarity, json_write_file, indent=4, sort_keys=True)
 
 computeRepoSimilarity()
