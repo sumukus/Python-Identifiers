@@ -36,7 +36,7 @@ def convertToAtomicIdentifiers(repo_name, raw_identifiers_name):
 
 def readIdentifiersNames():
 
-	with open("rawIdentifiersNames.json", 'r') as json_read_file:
+	with open("dataset/rawIdentifiersNames.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		atomic_identifiers_list = []
 
@@ -44,7 +44,7 @@ def readIdentifiersNames():
 			repo_info = convertToAtomicIdentifiers(repo['repo_name'], repo['identifiers_name'])
 			atomic_identifiers_list.append(repo_info)
 
-		with open("atomicIdentifiersName.json", "w") as json_write_file:
+		with open("dataset/atomicIdentifiersName.json", "w") as json_write_file:
 			json.dump(atomic_identifiers_list, json_write_file, indent=4, sort_keys=True)
 
 			
