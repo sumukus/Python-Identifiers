@@ -28,16 +28,5 @@ def uniqueIdentifiers():
 			json.dump(identifiers_name_list, json_write_file, indent=4, sort_keys=True)
 
 
-start_time = time.time()
 uniqueIdentifiers()
-
-duration = time.time() - start_time
-
-f = open("time3.txt", 'w')
-
-f.write(str(duration))
-
-f.close()
-
-
 
