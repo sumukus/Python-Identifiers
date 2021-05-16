@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 def similarityScatterPlot():
-	with open("repoSimilarityDetails.json", 'r') as json_read_file:
+	with open("dataset/repoSimilarityDetails.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		y_axis = []
 		for repo in data:
@@ -18,7 +18,7 @@ def similarityScatterPlot():
 		plt.show()
 
 def identifiersNameLengthBarGraph():
-	with open("rawIdentifiersNameFrequency.json", 'r') as json_read_file:
+	with open("dataset/rawIdentifiersNameFrequency.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		identifiers_group_frequency = [[0] for _ in range(10)]
 		for value in data:
