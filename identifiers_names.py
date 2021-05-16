@@ -24,7 +24,7 @@ def uniqueIdentifiers():
 		identifiers_names['total_count'] = count
 		identifiers_name_list.append(identifiers_names)
 
-		with open("identifiersName.json", 'w') as json_write_file:
+		with open("dataset/identifiersName.json", 'w') as json_write_file:
 			json.dump(identifiers_name_list, json_write_file, indent=4, sort_keys=True)
 
 
