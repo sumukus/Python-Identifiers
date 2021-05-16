@@ -1,5 +1,5 @@
 from spiral import ronin
-import json, time
+import json
 
 '''
 It will convert the identifiers name into its atomic form. i.e, totalCount into total and Count
@@ -18,7 +18,7 @@ def convertToAtomicIdentifiers(repo_name, raw_identifiers_name):
 	for raw_name in raw_identifiers_name:
 		try:
 			atomic_names = ronin.split(raw_name)
-			#print(f"{count} Writing {atomic_names}identifiers list")
+			print(f"{count} Writing {atomic_names}identifiers list")
 			atomic_identifiers_list = atomic_identifiers_list + atomic_names
 			count+=1
 
@@ -48,10 +48,4 @@ def readIdentifiersNames():
 			json.dump(atomic_identifiers_list, json_write_file, indent=4, sort_keys=True)
 
 			
-start_time = time.time()
 readIdentifiersNames()
-duration = time.time() - start_time
-f = open("time2.txt", 'w')
-f.write(str(duration))
-f.close()
-
