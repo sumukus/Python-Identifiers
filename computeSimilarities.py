@@ -1,4 +1,4 @@
-import time,json,spacy
+import json,spacy
 '''
 It will compute the similarity between the repo name used and the identifiers name used in it
 It uses the spacy library to compute the similarity between repository name and identifiers names
@@ -28,9 +28,4 @@ def computeRepoSimilarity():
 		with open("repoSimilarityDetails.json", 'w') as json_write_file:
 			json.dump(repo_identifiers_similarity, json_write_file, indent=4, sort_keys=True)
 
-start_time = time.time()
 computeRepoSimilarity()
-duration = time.time() - start_time
-f = open("time6.txt", 'w')
-f.write(str(duration))
-f.close()
