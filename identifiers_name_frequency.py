@@ -1,4 +1,4 @@
-import json, time
+import json
 
 '''
 It will count the frequency of length of identifiers name that will occur in entire repositories
@@ -26,13 +26,5 @@ def countUniqueIdentifiersFrequency():
 			json.dump(identifiers_frequency_list, json_write_file, indent=4, sort_keys=True)
 
 
-start_time = time.time()
 
 countUniqueIdentifiersFrequency()
-
-duration = time.time() - start_time
-
-f = open("time4.txt", 'w')
-f.write(str(duration))
-f.close()
-
