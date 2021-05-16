@@ -28,10 +28,10 @@ def writeIdentifiersNames(repo_name, file_path_list):
 
 def readPythonFile():
 	#Open the pythoncodefile which contains path of python code pythoncodepath.json
-	with open("pythoncodepath.json", 'r') as json_read_file:
+	with open("dataset/pythoncodepath.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		identifiers_name_list = []
-		with open("rawIdentifiersNames.json", 'w') as json_write_file:
+		with open("dataset/rawIdentifiersNames.json", 'w') as json_write_file:
 			print("Initiating the writing of Identifiers Name to json file")
 			time.sleep(2)
 			for repo_data in data:
