@@ -19,7 +19,7 @@ count = 1
 dir_name = os.listdir('repo/')
 
 print("Writing the repository information such as name, description, url in the file")
-with open("data_scrap_url.csv", mode='w') as file:
+with open("dataset/data_scrap_url.csv", mode='w') as file:
     writer = csv.writer(file, delimiter=',') 
     writer.writerow(['Id', 'Name', 'Description' ,'Repo Url'])
     while repo_url:
