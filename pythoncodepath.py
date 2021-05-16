@@ -7,7 +7,7 @@ def detectPythonFile():
 	repo_list = os.listdir('repo/')
 	#This is used for truncating absolute path when saving python file name
 	present_path = os.path.abspath(".")
-	with open("pythoncodepath.json", 'w') as jsonfile:
+	with open("dataset/pythoncodepath.json", 'w') as jsonfile:
 		for repo in repo_list:
 
 			data = {"repo_name":" ", "python_file_name": []}
