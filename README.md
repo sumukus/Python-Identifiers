@@ -17,7 +17,7 @@ sudo python3 -m pip install .
 
 ## 2. Spacy
 I have used spacy package for computing the similarity between the two list of texts. 
-The builtin model I have used from the spacy package is called **en_core_web_lg**
+The builtin model I have used from the spacy package is called **en_core_web_lg**.
 The some of other prebuilt models are as follows:
 * *en_core_web_sm*
 * *en_core_web_md*
@@ -29,7 +29,7 @@ python3 -m spacy download en_core_web_lg
 </pre>
 
 # Research Questions
-The some of the research questions that I wanted to address are as follows:
+The some of the research questions that I wanted to address are as follows:\
 **RQ1) How well does my system download the relevant project from the github repository?**
 **RQ2) To what degree different length identifier names are used in python source code?**
 **RQ3) Is there any relevance between the identifier name used and the name of the python project repository in the github?**
