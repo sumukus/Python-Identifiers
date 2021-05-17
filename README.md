@@ -39,3 +39,20 @@ The more documentaton on spacy can be found at [spacy website](https://spacy.io/
 pip3 install spacy
 python3 -m spacy download en_core_web_lg
 </pre>
+
+## Repository Structure
++dataset
+  -data_scrap_url.csv
+  -pythoncodepath.json
+  -rawIdentifiersNames.json
+  -atomicIdentifiersName.json
+  -identifiersName.json
+  -identifiersNameFrequency.json
+  -repoSimilarityDetails.json
++repo
+  -contains 1000 repos
+-python scripts files
+
+
+
+
