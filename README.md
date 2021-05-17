@@ -133,4 +133,4 @@ The y-axis represents the similarity score between the repository name and ident
 
 From the scatter plot given below I can conclude that there is no relationship for most of the repositories name used and identifiers name used in it. At maximum it has a similarity score of 65.58% for “dev-setup” repository and the worst score is of -22.42 for the “thefuck” repository.
 
-***If this repository or study comes to any help to anyone, please give a star :star: ***
+*If this repository or study comes to any help to anyone, please give a star* :star: :star:
