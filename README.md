@@ -93,3 +93,9 @@ In order to view the result diagramatically, run the follwing python code file.
 <pre>
 python3 data_visualization.py
 </pre>
+
+# Results for Research Questions
+## RQ1 Result
+My python scripts could download 1000 repositories successfully from github. I used the language parameter from github api to download only the python related repositories. In order to get good repositories I used the star received by the repository. So I was able to download top 1000 repositories based on the star count.
+
+## RQ2 Result
