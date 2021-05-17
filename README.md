@@ -59,7 +59,7 @@ python3 -m spacy download en_core_web_lg
 I have extracted dataset by python scripts so to reproduce same work you can follow the steps given below.
 
 ### Step 1
-First clone the github repository in your machine or you can download only the python scripts file from my github repository
+First clone the github repository in your machine or you can download only the python scripts file from my the repository.
 <pre>
 git clone https://github.com/sumukus/Python-Identifiers.git
 </pre>
@@ -77,4 +77,11 @@ identifiers_names.py
 </pre>
 
 After successfully running the above code you should be able to see all the dataset files as given in repo structure section.
+
 *Note: The identifier_extract.py program can take couple of hours to complete and extract_atomic_identifiers.py can take couple of days to complete running*
+
+### Step 3
+In order to view the result diagramatically, run the follwing python code file.
+<pre>
+python3 data_visualization.py
+</pre>
