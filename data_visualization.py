@@ -6,6 +6,18 @@ def similarityScatterPlot():
 	with open("dataset/repoSimilarityDetails.json", 'r') as json_read_file:
 		data = json.load(json_read_file)
 		y_axis = []
+		max_value = 0
+		max_repo = ""
+		min_value = 1
+		min_repo = ""
+		for value in data:
+			if value['similarity_score'] > max_value:
+				max_value = value['similarity_score']
+				max_repo = value['repo_name']
+
+			if value['similarity_score'] < min_value:
+				min_value = value['similarity_score']
+				min_repo = value['repo_name']
 		for repo in data:
 			y_axis.append(repo['similarity_score']) 
 
@@ -15,6 +27,8 @@ def similarityScatterPlot():
 		plt.xlabel("Repositories")
 		plt.ylabel("Similarity Score")
 		plt.title("Similarity scores of Identifiers Name against Repositories")
+		plt.text(0,max_value, f"Repo Name:{max_repo} Max Similarity Score:{round(max_value,2)}", color='green')
+		plt.text(0,min_value, f"Repo Name:{min_repo} Min Similarity Score:{round(min_value,2)}", color='red')
 		plt.show()
 
 def identifiersNameLengthBarGraph():
