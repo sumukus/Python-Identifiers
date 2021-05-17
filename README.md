@@ -30,9 +30,12 @@ python3 -m spacy download en_core_web_lg
 </pre>
 
 # Research Questions
-The some of the research questions that I wanted to address are as follows:\
+The some of the research questions that I wanted to address are as follows:
+
 ***RQ1)** How well does my system download the relevant project from the github repository?*
+
 ***RQ2)** To what degree different length identifier names are used in python source code?*
+
 ***RQ3)** Is there any relevance between the identifier name used and the name of the python project repository in the github?*
 
 
