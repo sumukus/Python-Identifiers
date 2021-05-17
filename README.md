@@ -2,12 +2,19 @@
 This is my first attempt to carry out the empirical study on python identifiers. I wanted to know how the identifiers name are used in the python code. What are the different lenghts of identifiers name used in python code? Is there any relevence between the repository name and the identifiers name used inside the repository?
 
 # Dependencies Installation
-I have used spiral module for splitting the identifiers name into its atomic form or tokens.
+I have used spiral and spacy python3 package for my work.'
+
+## 1. Spiral
+I have used spiral package for splitting the identifiers name. It is written in python3.
 It can be access from the github repository called [spiral](https://github.com/casics/spiral)
 
-## The quick installtion is as follows
+### The quick installtion is as follows
 <pre>
 git clone https://github.com/casics/spiral.git
 cd spiral
 sudo python3 -m pip install .
 </pre>
+
+## 2. Spacy
+I have used spacy package for computing the similarity between the two list of texts. 
+The prebuilt model I have used from the spacy package is called *en_core_web_lg*
