@@ -13,13 +13,13 @@ The some of the research questions that I wanted to address are as follows:
 
 # Technical Work Flow
 ## Dependencies Installation
-I have used spiral and spacy python3 package for my work.
+I have used spiral and spacy python3 package for my work. I have also used matplotlip and numpy for graphical representation of data.
 
 ### 1. Spiral
 I have used spiral package for splitting the identifiers name
 It can be access from the github repository called [spiral](https://github.com/casics/spiral).
 
-#### The quick installtion is as follows
+#### The quick installtion are as follows
 <pre>
 git clone https://github.com/casics/spiral.git
 cd spiral
@@ -34,10 +34,18 @@ The some of other prebuilt models are as follows:
 * *en_core_web_md*
 
 The more documentaton on spacy can be found at [spacy website](https://spacy.io/models)
-#### The quick installtion is as follows
+#### The quick installtion are as follows
 <pre>
 pip3 install spacy
 python3 -m spacy download en_core_web_lg
+</pre>
+
+### 3. Matplotlib and Numpy
+I have used scatter plot and bar graph to represent the data of similarity score and identifiers name length respectively.
+#### The quick installtion are as follows
+<pre>
+pip3 install matplotlib
+pip3 install numpy
 </pre>
 
 ## Repository Structure
@@ -73,12 +81,12 @@ python3 pythoncodepath.py
 python3 identifier_extract.py
 python3 identifiers_name_frequency.py
 python3 extract_atomic_identifiers.py
-identifiers_names.py
+python3 identifiers_names.py
 </pre>
 
 After successfully running the above code you should be able to see all the dataset files as given in repo structure section.
 
-*Note: The identifier_extract.py program can take couple of hours to complete and extract_atomic_identifiers.py can take couple of days to complete running*
+***Note:** The identifier_extract.py program can take couple of hours to complete and extract_atomic_identifiers.py can take couple of days to complete running*
 
 ### Step 3
 In order to view the result diagramatically, run the follwing python code file.
