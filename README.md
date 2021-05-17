@@ -1,5 +1,5 @@
 # Python-Identifiers
-This is my first attempt to carry out the empirical study on python identifiers. I wanted to know how the identifiers name are used in the python code. What are the different lenghts of identifiers name used in python code? Is there any relevence between the repository name and the identifiers name used inside the repository?
+This is my first attempt to carry out the empirical study on python identifiers. I wanted to know how the identifiers name are used in the python code. What are the different lenghts of identifiers name used in python code? Is there any relevence between the repository name and the identifiers name used inside the repository? By the end of the work I wanted to have a dataset of python identifiers name which can be used by other researcher.
 
 # Dependencies Installation
 I have used spiral and spacy python3 package for my work.
@@ -17,13 +17,22 @@ sudo python3 -m pip install .
 
 ## 2. Spacy
 I have used spacy package for computing the similarity between the two list of texts. 
-The prebuilt model I have used from the spacy package is called **en_core_web_lg**
+The builtin model I have used from the spacy package is called **en_core_web_lg**
 The some of other prebuilt models are as follows:
 * *en_core_web_sm*
 * *en_core_web_md*
-
+The more documentaton on spacy can be found at [spacy website](https://spacy.io/models)
 ### The quick installtion is as follows
 <pre>
 pip3 install spacy
 python3 -m spacy download en_core_web_lg
 </pre>
+
+# Research Questions
+The some of the research questions that I wanted to address are as follows:
+**RQ1) How well does my system download the relevant project from the github repository?**
+**RQ2) To what degree different length identifier names are used in python source code?**
+**RQ3) Is there any relevance between the identifier name used and the name of the python project repository in the github?**
+
+
+ 
