@@ -58,6 +58,8 @@ pip3 install numpy
   - identifiersName.json
   - identifiersNameFrequency.json
   - repoSimilarityDetails.json
++ image
+  - contains the images used to write report
 + repo
   - contains 1000 repos
 - python scripts files
