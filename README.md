@@ -99,3 +99,8 @@ python3 data_visualization.py
 My python scripts could download 1000 repositories successfully from github. I used the language parameter from github api to download only the python related repositories. In order to get good repositories I used the star received by the repository. So I was able to download top 1000 repositories based on the star count.
 
 ## RQ2 Result
+The length of python identifiers used in code ranges from 1 to 196. It is based on the identifiers name used in 1000 repositories that I have downloaded. The detailed distribution of data in range is given below in the table.
+| Identifier Name Lenght|Identifiers Count|
+------------------------|-----------------|
+0 - 10                  | 49,497,232      |
+11 - 21                 | 10,854,565      |
