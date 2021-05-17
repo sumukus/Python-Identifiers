@@ -12,6 +12,9 @@ The some of the research questions that I wanted to address are as follows:
 ***RQ3)** Is there any relevance between the identifier name used and the name of the python project repository in the github?*
 
 # Technical Work Flow
+## Methodology
+![Logo](image/methodology.png)
+
 ## Dependencies Installation
 I have used spiral and spacy python3 package for my work. I have also used matplotlip and numpy for graphical representation of data.
 
