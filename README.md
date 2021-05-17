@@ -41,6 +41,7 @@ python3 -m spacy download en_core_web_lg
 </pre>
 
 ## Repository Structure
+<pre>
 +dataset
   -data_scrap_url.csv
   -pythoncodepath.json
@@ -52,7 +53,7 @@ python3 -m spacy download en_core_web_lg
 +repo
   -contains 1000 repos
 -python scripts files
-
+</pre>
 
 
 
