@@ -101,6 +101,7 @@ python3 data_visualization.py
 My python scripts could download 1000 repositories successfully from github. I used the language parameter from github api to download only the python related repositories. In order to get good repositories I used the star received by the repository. So I was able to download top 1000 repositories based on the star count.
 
 ## RQ2 Result
+![Logo](image/identifiersNameLengthBarGraph.png)
 The length of python identifiers used in code ranges from 1 to 196. It is based on the identifiers name used in 1000 repositories that I have downloaded. The detailed distribution of data in range is given below in the table.
 
 | Identifier Name Lenght|Identifiers Count|
@@ -121,9 +122,6 @@ The length of python identifiers used in code ranges from 1 to 196. It is based 
 * The least identifier's used are from the name length range of 31 and above which consist almost 0% to the identifier's name.
 * The identifiers name length which consist of 17.49% are moderately used from the range 11 to 20.
 * The most used identifiers key length is 4 and its count value is 12,015,024.
-
-### The graphical representation of the table given above
-![Logo](image/identifiersNameLengthBarGraph.png)
 
 ## RQ3 Result
 ![Logo](image/similarityScoreScatterGraph.png)
