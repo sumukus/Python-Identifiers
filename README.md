@@ -122,7 +122,7 @@ The length of python identifiers used in code ranges from 1 to 196. It is based 
 * The most used identifiers key length is 4 and its count value is 12,015,024.
 
 ## RQ3 Result
-![Logo](image/similarityScoreScatterGraph.png "Similarity Score")
+![Logo](image/similarityScoreScatterGraph.png)
 
 The y-axis represents the similarity score between the repository name and identifiers name used in it from -1 to +1. The x-axis represents the repositories. Since the name is not important in the graph, I have represented them using an index as it appears on the json file. The negative value represents the strong dissimilarity between the python repository name and the identifiers used in it. The positive value represents the similarity between the python repository name and identifiers name used in it. Greater the positive value, more the similarity between the repository name and identifiers name used in the python program code. If the similarity score value is +1 then it indicates that the repository name is extensively used in python code as identifiers names.
 
