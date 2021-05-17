@@ -4,3 +4,10 @@ This is my first attempt to carry out the empirical study on python identifiers.
 # Dependencies Installation
 I have used spiral module for splitting the identifiers name into its atomic form or tokens.
 It can be access from the github repository called [spiral](https://github.com/casics/spiral)
+
+## The quick installtion is as follows
+<pre>
+git clone https://github.com/casics/spiral.git
+cd spiral
+sudo python3 -m pip install .
+</pre>
