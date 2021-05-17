@@ -5,8 +5,8 @@ This is my first attempt to carry out the empirical study on python identifiers.
 I have used spiral and spacy python3 package for my work.
 
 ## 1. Spiral
-I have used spiral package for splitting the identifiers name. It is written in python3.
-It can be access from the github repository called [spiral](https://github.com/casics/spiral)
+I have used spiral package for splitting the identifiers name
+It can be access from the github repository called [spiral](https://github.com/casics/spiral).
 
 ### The quick installtion is as follows
 <pre>
@@ -21,6 +21,7 @@ The builtin model I have used from the spacy package is called **en_core_web_lg*
 The some of other prebuilt models are as follows:
 * *en_core_web_sm*
 * *en_core_web_md*\
+
 The more documentaton on spacy can be found at [spacy website](https://spacy.io/models)
 ### The quick installtion is as follows
 <pre>
@@ -30,9 +31,9 @@ python3 -m spacy download en_core_web_lg
 
 # Research Questions
 The some of the research questions that I wanted to address are as follows:\
-*RQ1) How well does my system download the relevant project from the github repository?*\
-*RQ2) To what degree different length identifier names are used in python source code?*\
-*RQ3) Is there any relevance between the identifier name used and the name of the python project repository in the github?*\
+***RQ1)** How well does my system download the relevant project from the github repository?*\
+***RQ2)** To what degree different length identifier names are used in python source code?*\
+***RQ3)** Is there any relevance between the identifier name used and the name of the python project repository in the github?*\
 
 
  
