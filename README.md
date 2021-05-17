@@ -55,4 +55,26 @@ python3 -m spacy download en_core_web_lg
 - python scripts files
 </pre>
 
+## How to reprodude same work in your machine?
+I have extracted dataset by python scripts so to reproduce same work you can follow the steps given below.
 
+### Step 1
+First clone the github repository in your machine or you can download only the python scripts file from my github repository
+<pre>
+git clone https://github.com/sumukus/Python-Identifiers.git
+</pre>
+Navigate inside Python-Identifiers directory, remove all the files inside the repo and dataset directory
+
+### Step 2
+ Now run the following python code file in the sequence given below.
+<pre>
+python3 download_repository.py
+python3 pythoncodepath.py
+python3 identifier_extract.py
+python3 identifiers_name_frequency.py
+python3 extract_atomic_identifiers.py
+identifiers_names.py
+</pre>
+
+After successfully running the above code you should be able to see all the dataset files as given in repo structure section.
+*Note: The identifier_extract.py program can take couple of hours to complete and extract_atomic_identifiers.py can take couple of days to complete running*
