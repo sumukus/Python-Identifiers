@@ -101,8 +101,25 @@ My python scripts could download 1000 repositories successfully from github. I u
 ## RQ2 Result
 The length of python identifiers used in code ranges from 1 to 196. It is based on the identifiers name used in 1000 repositories that I have downloaded. The detailed distribution of data in range is given below in the table.
 | Identifier Name Lenght|Identifiers Count|
-|centered               | centered        |
 ------------------------|-----------------|
+0 - 10  | 49,497,232 |
+11 - 20 | 10,854,565 |
+21 - 30 | 1,406,668  |
+31 - 40 | 224,198    |
+41 - 50 | 53,315     |
+51 - 60 | 15,665     |
+61 - 70 | 4,701      |
+71 - 80 | 1,355      |
+81 - 90 | 544        |
+91 < above | 516     |
 
-0 - 10                  | 49,497,232      |
-11 - 21                 | 10,854,565      |
+
+
+
+
+
+
+
+
+
+
