@@ -113,7 +113,14 @@ The length of python identifiers used in code ranges from 1 to 196. It is based 
 81 - 90 | 544        |
 91 < above | 516     |
 
+### The some of the inferences that we can take from the table
+*The most used identifier names are from the name length range 1 to 10 which consist of 79.76% of the identifiers names.*
 
+*The least identifier's used are from the name length range of 31 and above which consist almost 0% to the identifier's name.*
+
+*The identifiers name length which consist of 17.49% are moderately used from the range 11 to 20.*
+
+*The most used identifiers key length is 4 and its count value is 12,015,024.*
 
 
 
