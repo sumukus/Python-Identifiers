@@ -68,7 +68,7 @@ pip3 install numpy
 - python scripts files
 </pre>
 
-## How to reprodude same work in your machine?
+## How to reproduce same work in your machine?
 I have extracted dataset by python scripts so to reproduce same work you can follow the steps given below.
 
 ### Step 1
