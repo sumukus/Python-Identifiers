@@ -3,9 +3,9 @@ import requests
 import csv
 import os
 
-#github credentials
-username = "sumukus"
-token = "da72b045b22c3b0e13efacf8aa991e59c335e163"
+#github credentials, replace user_name and access_token_value with your own credentials
+username = "user_name"
+token = "acccess_token_value"
 
 page_number = 1
 #https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}
