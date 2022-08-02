@@ -131,6 +131,6 @@ The length of python identifiers used in code ranges from 1 to 196. It is based 
 
 The y-axis represents the similarity score between the repository name and identifiers name used in it from -1 to +1. The x-axis represents the repositories. Since the name is not important in the graph, I have represented them using an index as it appears on the json file. The negative value represents the strong dissimilarity between the python repository name and the identifiers used in it. The positive value represents the similarity between the python repository name and identifiers name used in it. Greater the positive value, more the similarity between the repository name and identifiers name used in the python program code. If the similarity score value is +1 then it indicates that the repository name is extensively used in python code as identifiers names.
 
-From the scatter plot given below I can conclude that there is no relationship for most of the repositories name used and identifiers name used in it. At maximum it has a similarity score of 65.58% for “dev-setup” repository and the worst score is of -22.42 for the “thefuck” repository.
+From the scatter plot given above I can conclude that there is no relationship for most of the repositories name used and identifiers name used in it. At maximum it has a similarity score of 65.58% for “dev-setup” repository and the worst score is of -22.42 for the “thefuck” repository.
 
 ##### :pray: *If this repository or study comes to any help to anyone, please give a star* :star: :star:
